@@ -1,0 +1,59 @@
+@import "~antd/dist/antd.less";
+// If your theme includes less files, include theme here!
+// @import "~{{theme-package}}/theme.less";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  min-height: 100vh;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    width: 704px;
+  }
+
+  .bottom-container {
+    margin-top: auto;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.top-title {
+  align-self: center;
+  margin-bottom: @padding-lg;
+  font-size: @font-size-lg;
+
+  .green {
+    color: @primary-color;
+  }
+
+  .black {
+    color: #4a4a4a;
+  }
+}
+
+
+
+// Common helpers.
+.text-center {
+  text-align: center;
+}
+
+.center-children {
+  display: flex;
+  justify-content: center;
+}
+
+.with-icon {
+  display: flex;
+  justify-content: space-between;
+
+  .anticon {
+    font-size: @font-size-lg;
+    color: @primary-color;
+  }
+}
