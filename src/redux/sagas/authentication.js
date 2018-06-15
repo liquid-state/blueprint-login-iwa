@@ -6,7 +6,7 @@ import {
   LOGIN_RESPONSE_MFA_REQUIRED,
 } from '@liquid-state/iwa-cognito-identity/dist/const';
 
-import { getAuthenticator } from '../../cognito';
+import { getAuthenticator } from '@liquid-state/iwa-cognito-identity';
 import { LOGIN_SUBMITTED, LOGIN_CHANGE_PASSWORD_SUBMITTED } from '../const';
 import { loginSucceeded, loginFailed, loginChangePasswordRequired } from '../actions';
 

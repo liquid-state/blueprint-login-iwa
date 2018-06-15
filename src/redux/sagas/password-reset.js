@@ -1,8 +1,9 @@
 import { takeLatest, getContext, put, call, take } from 'redux-saga/effects';
 import { replace } from 'react-router-redux';
+import { getAuthenticator } from '@liquid-state/iwa-cognito-identity';
 import { PASSWORD_RESET_STARTED, PASSWORD_RESET_CODE_SUBMITTED, PASSWORD_RESET_PASSWORD_SUBMITTED } from '../const';
 import { passwordResetCodeInvalid, passwordResetPasswordInvalid, passwordResetComplete } from '../actions';
-import { getAuthenticator } from '../../cognito';
+
 
 export default function* passwordResetSaga() {
   yield takeLatest(PASSWORD_RESET_STARTED, passwordReset);

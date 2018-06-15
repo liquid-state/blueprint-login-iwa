@@ -86,16 +86,16 @@
     to-fast-properties "^2.0.0"
 
 "@liquid-state/iwa-cognito-identity@^1.0.1":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@liquid-state/iwa-cognito-identity/-/iwa-cognito-identity-1.0.5.tgz#2e93dacdb76b12b389bb869e6e5d44d4e5683fcc"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@liquid-state/iwa-cognito-identity/-/iwa-cognito-identity-1.1.0.tgz#8701d6cd9068fd7c9b6c80ed8b9db0fddd9afb16"
   dependencies:
     "@liquid-state/iwa-core" "^1.0.0"
     "@liquid-state/iwa-identity" "^1.0.0"
     "@liquid-state/iwa-keyvalue" "^1.0.0"
 
 "@liquid-state/iwa-core@^1", "@liquid-state/iwa-core@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@liquid-state/iwa-core/-/iwa-core-1.0.2.tgz#fc09ff4762e503961daf8807a3ae2c9825bcec84"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@liquid-state/iwa-core/-/iwa-core-1.1.0.tgz#ec33c261ed4e3b0d243c33b74010fa38938f68f9"
   dependencies:
     lodash-es "^4.17.5"
 
