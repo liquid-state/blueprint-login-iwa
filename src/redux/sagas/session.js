@@ -9,7 +9,7 @@ const setPermissionsForKey = key => (
   key
     .addWritePermission('iwa', 'login')
     .addWritePermission('iwa', 'registration')
-    .addWritePermission('iwa', 'home')
+    .addReadPermission('iwa', 'home')
 );
 
 export default function* sessionSaga() {
